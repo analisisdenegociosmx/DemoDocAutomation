@@ -1,0 +1,15 @@
+body{ background:#f8fafc; margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; color:#0f172a;}
+header{ padding: 32px 16px; background: #1B4965; color: white; text-align: center; }
+header h1 { font-size: 28px; margin: 0 0 12px; }
+header h2 { font-size: 18px; font-weight: 400; margin: 0; max-width: 800px; margin-left: auto; margin-right: auto;}
+ul.benefits { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;}
+ul.benefits li { background: rgba(255,255,255,0.1); padding: 8px 14px; border-radius: 8px; font-size: 14px; }
+main { padding: 32px 16px; max-width: 1100px; margin: auto;}
+.card{ background:white; border:1px solid #e5e7eb; border-radius:22px; padding:28px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); margin-bottom: 32px;}
+.lead{ color:#475569; margin-bottom: 20px; font-size: 18px;}
+.pill { display:inline-block; padding: 4px 10px; border-radius: 999px; border:1px solid #e2e8f0; background:#f8fafc; font-size:12px; color:#334155; }
+.icon { width: 24px; height: 24px; vertical-align: middle; }
+.icon-big { width: 40px; height: 40px; vertical-align: middle; }
+.node { display:flex; align-items:center; justify-content:center; gap:8px; padding: 10px 16px; white-space: nowrap; }
+.cta { display: inline-block; padding: 14px 24px; background: #1B4965; color: white; border-radius: 12px; text-decoration: none; font-weight: 600; margin-top: 16px;}
+.cta:hover { background: #16384d; }

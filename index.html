@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing con Beneficios Claros</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>La forma más fácil de rellenar documentos sin errores</h1>
+    <h2>Tus plantillas se llenan solas con tus archivos y IA. Compatible con Word, Excel y PowerPoint. Funciona con Google Drive y SharePoint.</h2>
+    <ul class="benefits">
+      <li>Sin copiar y pegar</li>
+      <li>Sin perder tiempo buscando plantillas</li>
+      <li>Siempre con el formato correcto y nombre correcto</li>
+      <li>Listo para enviar o guardar automáticamente</li>
+      <li>Funciona desde celular o laptop</li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="card">
+      <p class="lead"><strong>Entrega documentos perfectos 10× más rápido</strong> — incluso en áreas legales, construcción, administración o campo.</p>
+      <div class="mermaid">
+flowchart LR
+  linkStyle default interpolate basis, stroke:#1B4965, stroke-width:2px
+
+  A1["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c8.svg'/> ERP / CRM</div>"]
+  A2["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c4.svg'/> Excel / PDF</div>"]
+  A3["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4e7.svg'/> Email</div>"]
+  A4["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f64b.svg'/> Formulario</div>"]
+
+  B["<div class='node' style='flex-direction:column; gap:10px'>
+        <div>
+          <img class='icon-big' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f9e0.svg'/>
+          <img class='icon-big' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/23f1.svg'/>
+          <img class='icon-big' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/2705.svg'/>
+        </div>
+        <div><strong>IA que ahorra hasta 6h/semana por usuario</strong></div>
+        <div>
+          <span class='pill'>x10 más rápido</span>
+          <span class='pill'>sin errores</span>
+          <span class='pill'>cumple normas</span>
+        </div>
+      </div>"]
+
+  C1["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4dd.svg'/> Documento correcto</div>"]
+  C2["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4e4.svg'/> Enviar / Compartir</div>"]
+  C3["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4be.svg'/> Guardar en nube</div>"]
+  C4["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c2.svg'/> Registro en sistema</div>"]
+
+  A1 --> B
+  A2 --> B
+  A3 --> B
+  A4 --> B
+
+  B --> C1
+  B --> C2
+  B --> C3
+  B --> C4
+
+  classDef input fill:#CAE9FF,stroke:#1B4965,stroke-width:2px,color:#0F172A,rx:14,ry:14;
+  classDef engine fill:#FFD166,stroke:#CA8A04,stroke-width:2px,color:#0F172A,rx:16,ry:16;
+  classDef output fill:#E0F2FE,stroke:#1B4965,stroke-width:2px,color:#0F172A,rx:14,ry:14;
+
+  class A1,A2,A3,A4 input
+  class B engine
+  class C1,C2,C3,C4 output
+      </div>
+      <a href="#form" class="cta">Reservar mi lugar</a>
+    </div>
+  </main>
+</body>
+</html>
