@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing con Beneficios Claros</title>
   <link rel="stylesheet" href="style.css">
-  <script type="module" src="script.js"></script>
+  <!-- Cargar Mermaid como global (evita problemas de CORS/file:// con módulos) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>La forma más fácil de rellenar documentos sin errores</h1>
-    <h2>Tus plantillas se llenan solas con tus archivos y IA. Compatible con Word, Excel y PowerPoint. Funciona con Google Drive y SharePoint.</h2>
+    <h1>DocNow la forma más fácil de rellenar documentos sin errores</h1>
+    <h2>"Llena cualquier documento en 60 segundos, sin errores. Compatible con Word y PDF, conectado a Google Drive y SharePoint. Más rápido que copiar y pegar, y siempre con el formato perfecto."</h2>
     <ul class="benefits">
       <li>Sin copiar y pegar</li>
       <li>Sin perder tiempo buscando plantillas</li>
@@ -27,8 +29,8 @@
 flowchart LR
   linkStyle default interpolate basis, stroke:#1B4965, stroke-width:2px
 
-  A1["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c8.svg'/> ERP / CRM</div>"]
-  A2["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c4.svg'/> Excel / PDF</div>"]
+  A1["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c8.svg'/> Datos pasados</div>"]
+  A2["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4c4.svg'/> Word/Excel/ PDF</div>"]
   A3["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4e7.svg'/> Email</div>"]
   A4["<div class='node'><img class='icon' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f64b.svg'/> Formulario</div>"]
 
@@ -38,7 +40,10 @@ flowchart LR
           <img class='icon-big' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/23f1.svg'/>
           <img class='icon-big' src='https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/2705.svg'/>
         </div>
-        <div><strong>IA que ahorra hasta 6h/semana por usuario</strong></div>
+        <div>
+          <h1>DocNow</h1>
+          <strong>La documentación de horas, ahora se hace en minutos</strong>
+        </div>
         <div>
           <span class='pill'>x10 más rápido</span>
           <span class='pill'>sin errores</span>
@@ -69,7 +74,8 @@ flowchart LR
   class B engine
   class C1,C2,C3,C4 output
       </div>
-      <a href="#form" class="cta">Reservar mi lugar</a>
+      <p>Click aqui para demo gratis</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3lGd_6jyGa5NrYWk5kKzUMh2nqVLGtbcqD-iGzbdmfeb_Zw/viewform?usp=header" class="cta">Demo Gratis</a>
     </div>
   </main>
 </body>
